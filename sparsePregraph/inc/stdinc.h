@@ -33,6 +33,8 @@
 #include <time.h>
 #include <pthread.h>
 #include <unistd.h>
+#include <getopt.h> /* added to find getopt functions */
+#include <unistd.h> /* added to find usleep, may be different on your system */
 using namespace std;
 
 
